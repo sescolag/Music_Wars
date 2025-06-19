@@ -104,31 +104,58 @@
 </div>
 
 
+<h2>3. Visualización Principal: Bar Chart Race de Popularidad Musical</h2>
+<p>
+    Para responder a las preguntas sobre la evolución de la popularidad de las canciones y la dinámica de los charts, la visualización principal escogida es un <strong>Bar Chart Race</strong>. Esta técnica es particularmente efectiva para mostrar cómo los rankings y las magnitudes cambian a lo largo de una dimensión temporal (en este caso, mes a mes).
+</p>
+<p>
+    La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022.
+</p>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <video controls width="100%" style="max-width: 800px; border: 1px solid #ccc;">
+        <source src="Music_Wars.mp4" type="video/mp4"> <!-- ▲▲▲ CAMBIA ESTE NOMBRE DE ARCHIVO ▲▲▲ -->
+        Tu navegador no soporta el tag de video. Por favor, considera actualizarlo.
+    </video>
+</div>
+
+<h3>Justificación de la Elección y Codificaciones Visuales</h3>
+<p>
+    Un Bar Chart Race fue seleccionado por su capacidad para:
+</p>
+<ul>
+    <li><strong>Mostrar Dinámicas de Ranking:</strong> Permite observar fácilmente qué canciones suben, bajan o se mantienen estables en el top de popularidad.</li>
+    <li><strong>Visualizar Magnitudes Comparativas:</strong> La longitud de las barras ofrece una comparación directa de los streams acumulados entre canciones.</li>
+    <li><strong>Contar una Historia Temporal:</strong> La animación a través de los meses revela tendencias, la longevidad de los éxitos y la aparición de nuevos fenómenos.</li>
+</ul>
+<p>
+    Las <strong>codificaciones visuales</strong> empleadas y su justificación son las siguientes:
+</p>
+<dl>
+    <dt><strong>Longitud de Barra (Canal de Longitud):</strong></dt>
+    <dd>Representa la cantidad total de streams acumulados por cada canción hasta el mes mostrado. Este es un canal visual muy efectivo y preciso para datos cuantitativos, permitiendo comparaciones directas de magnitud.</dd>
+
+    <dt><strong>Posición Vertical de la Barra (Canal de Posición):</strong></dt>
+    <dd>Indica el ranking de la canción en ese mes específico, ordenado de mayor a menor cantidad de streams acumulados. La posición es un canal muy potente para comunicar orden y jerarquía.</dd>
+
+    <dt><strong>Etiquetas de Categoría (Nombres de Canción y Artista):</strong></dt>
+    <dd>Se muestran junto a cada barra (en el eje Y). Utilizan el canal de identidad para nombrar cada barra, permitiendo al espectador identificar qué canción representa cada barra. La fuente y tamaño se han elegido para maximizar la legibilidad.</dd>
+
+    <dt><strong>Etiquetas de Valor (Streams Acumulados en Millones):</strong></dt>
+    <dd>Aparecen al final de cada barra, mostrando el valor numérico exacto de los streams acumulados (en millones). Esto añade precisión cuantitativa a la longitud de la barra.</dd>
+
+    <dt><strong>Color de Barra (Canal de Color - Tono):</strong></dt>
+    <dd>Se utiliza un esquema de colores categórico (ej. 'Paired' o 'tab20') para asignar un color distinto a cada una de las Top 15 canciones. Esto ayuda a distinguir y seguir canciones individuales a medida que cambian de posición en la animación, mejorando la trazabilidad.</dd>
+    
+    <dt><strong>Animación (Progresión Temporal):</strong></dt>
+    <dd>El paso de un frame a otro representa el cambio de un mes al siguiente. La interpolación entre frames suaviza las transiciones, haciendo que la "carrera" sea más fluida y fácil de seguir. La etiqueta de período (ej. "Enero - 2015") indica claramente el momento temporal que se está visualizando.</dd>
+</dl>
+<p>
+    La combinación de estas codificaciones busca ofrecer una representación expresiva y efectiva de la evolución de la popularidad musical, permitiendo al usuario identificar patrones, canciones dominantes y la dinámica general del mercado de streaming de Spotify.
+</p>
 
 
-## 3. Análisis Visual y Elección de Codificaciones
-La visualización principal es un **Bar Chart Race**:
 
-<!-- Para incrustar un video, GitHub no lo hace directamente en el README.
-     Puedes subir el video al repositorio y poner un enlace de descarga,
-     o subirlo a YouTube/Vimeo y poner el enlace.
-     Para una imagen (si haces un GIF del race):
-     ![Bar Chart Race](spotify_race.gif)
-     Si es un MP4, la mejor opción es poner un thumbnail y enlazar al video:
--->
-[![Thumbnail del Bar Chart Race](url_del_thumbnail.png)](nombre_de_tu_video.mp4)
-*Haz clic en la imagen para ver el video del Bar Chart Race (asegúrate de que `nombre_de_tu_video.mp4` esté en el repositorio).*
-
-**Justificación de las codificaciones visuales:**
-- **Longitud de Barra:** ...
-- ...
-
-### Análisis Exploratorio de Datos (EDA)
-![Gráfico EDA 1](nombre_de_tu_grafico_eda1.png)
-*Descripción del gráfico EDA 1...*
-
-![Gráfico EDA 2](nombre_de_tu_grafico_eda2.png)
-*Descripción del gráfico EDA 2...*
 
 ## 4. Elementos Interactivos
 La visualización (el video) ofrece interactividad a través de los controles del reproductor...
