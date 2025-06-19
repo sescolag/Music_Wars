@@ -109,14 +109,15 @@
     Para responder a las preguntas sobre la evolución de la popularidad de las canciones y la dinámica de los charts, la visualización principal escogida es un <strong>Bar Chart Race</strong>. Esta técnica es particularmente efectiva para mostrar cómo los rankings y las magnitudes cambian a lo largo de una dimensión temporal (en este caso, mes a mes).
 </p>
 <p>
-    La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022.
+    La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022. El video está alojado en Dailymotion:
 </p>
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-    <video controls width="100%" style="max-width: 800px; border: 1px solid #ccc;">
-        <source src="Music_Wars.mp4" type="video/mp4"> <!-- ▲▲▲ CAMBIA ESTE NOMBRE DE ARCHIVO ▲▲▲ -->
-        Tu navegador no soporta el tag de video. Por favor, considera actualizarlo.
-    </video>
+<!-- Opción 2: Intento de incrustar con iframe de Dailymotion (verifica si GitHub Pages lo permite bien) -->
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; ">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        src="https://dai.ly/k1xAna0j3FgLntDhJlO"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+    </iframe>
 </div>
 
 <h3>Justificación de la Elección y Codificaciones Visuales</h3>
@@ -208,7 +209,7 @@
     Para la animación del Bar Chart Race, se tomaron las siguientes decisiones de diseño con el objetivo de maximizar la claridad y el impacto visual:
 </p>
 <ul>
-    <li><strong>Título Principal:</strong> "Top Spotify Songs - Streams Acumulados Mensuales (Global)" es claro y conciso, indicando inmediatamente el contenido de la visualización. El tamaño de la fuente es prominente.</li>
+    <li><strong>Título Principal:</strong> "Music Wars - Cancion más Reproducida entre 2013 y 2023" es claro y conciso, indicando inmediatamente el contenido de la visualización. El tamaño de la fuente es prominente aunque no come protagonismo a las barras.</li>
     <li><strong>Etiqueta de Período (Mes y Año):</strong> Se muestra de forma destacada (ej. "Ene - 2015") en una posición consistente (abajo a la derecha), permitiendo al espectador saber en qué punto del tiempo se encuentra la animación. Su tamaño y peso de fuente aseguran su legibilidad.</li>
     <li><strong>Línea Temporal:</strong> En la parte baja de la visualización, una linea temporal que indica el periodo en el que se encuentra la visualización.</li>
     <li><strong>Etiquetas de Barra (Nombres de Canción):</strong> Los nombres de las canciones y artistas se muestran claramente dentro de sus respectivas barras. El tamaño de la fuente se ajustó para permitir la fácil lecturade los nombres, debido a la poca personalización en este sentido se asumen errores de etqiuetas que no entran en las barras en las primeras partes de la visualización.</li>
@@ -224,6 +225,18 @@
 
 
 
-## Material Complementario
-- [Repositorio de GitHub con Código y Datos](https://github.com/TU_USUARIO_GITHUB/NOMBRE_DEL_REPOSITORIO)
-- [Dataset CSV Final Utilizado](spotify_data_for_livingcharts_millions_date_1stream_start_TOP200.csv)
+<h3>Justificación de la Elección y Codificaciones Visuales</h3>
+<!-- ... (el resto de la justificación se mantiene igual) ... -->
+</div>
+
+<!-- ... -->
+
+<div class="section">
+<h2>Material Complementario</h2>
+<p>Para una revisión más detallada del proceso y los datos:</p>
+<ul>
+    <li><a href="https://github.com/TU_USUARIO_GITHUB/NOMBRE_DEL_REPOSITORIO" class="button-link" target="_blank">Repositorio del Proyecto en GitHub</a> (incluye código Python y notebooks)</li>
+    <li><a href="https://www.dailymotion.com/video/TU_ID_DE_VIDEO_DAILYMOTION" target="_blank" class="button-link">Video Bar Chart Race (Dailymotion)</a></li>
+    <li><a href="Music_Wars_5_2.ipynb" target="_blank" class="button-link">Notebook Jupyter (.ipynb) con el Análisis</a></li> <!-- Asumiendo que se llama así y está en la raíz -->
+    <li><a href="spotify_data_for_livingcharts_millions_date_1stream_start_TOP200.csv" target="_blank" class="button-link">Dataset CSV Final Utilizado para Visualización</a></li>
+</ul>
