@@ -53,8 +53,8 @@
                         <p><em>Figura 1: Distribución de streams por entrada en chart. La escala logarítmica en el eje X evidencia la alta concentración de canciones con streams moderados y la larga cola de "mega-hits" con reproducciones masivas.</em></p>
 </div>
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="eda_plots/distribucion_posiciones.png" alt="Distribución de Posiciones" style="max-width:80%; border:1px solid #ccc;">
-    <p><em>Figura 2: Distribución de las posiciones ocupadas en los charts. La mayoría de las entradas se concentran en las posiciones del Top 200, como es de esperar.</em></p>
+                        <img src="eda_plots/distribucion_posiciones.png" alt="Distribución de Posiciones" style="max-width:80%; border:1px solid #ccc;">
+                        <p><em>Figura 2: Distribución de las posiciones ocupadas en los charts. La mayoría de las entradas se concentran en las posiciones del Top 200, como es de esperar.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
