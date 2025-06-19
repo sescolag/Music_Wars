@@ -53,47 +53,47 @@
                         <p><em>Figura 1: Distribución de streams por entrada en chart. La escala logarítmica en el eje X evidencia la alta concentración de canciones con streams moderados y la larga cola de "mega-hits" con reproducciones masivas.</em></p>
 </div>
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/distribucion_posiciones.png" alt="Distribución de Posiciones" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/distribucion_posiciones.png" alt="Distribución de Posiciones" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 2: Distribución de las posiciones ocupadas en los charts. La mayoría de las entradas se concentran en las posiciones del Top 200, como es de esperar.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/distribucion_duracion.png" alt="Distribución de Duración de Canciones" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/distribucion_duracion.png" alt="Distribución de Duración de Canciones" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 3: Distribución de la duración de las canciones (en minutos). Se observa un pico claro alrededor de los 3-4 minutos, típico de las canciones populares.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/proporcion_explicit.png" alt="Proporción de Canciones Explícitas" style="max-width:50%; border:1px solid #ccc;">
+    <img src="eda_plots/proporcion_explicit.png" alt="Proporción de Canciones Explícitas" style="max-width:50%; border:1px solid #ccc;">
     <p><em>Figura 4: Proporción de canciones marcadas como "explícitas" frente a las no explícitas en el dataset.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/top_paises_entradas.png" alt="Top Países por Entradas en Charts" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/top_paises_entradas.png" alt="Top Países por Entradas en Charts" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 5: Top 15 países con mayor número de entradas en los charts, indicando una alta actividad de reporte o escucha en estas regiones.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/top_artistas_apariciones.png" alt="Top Artistas por Apariciones" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/top_artistas_apariciones.png" alt="Top Artistas por Apariciones" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 6: Top 15 artistas con más apariciones en los charts globales, destacando a los más consistentemente populares.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/top_generos_apariciones.png" alt="Top Géneros por Apariciones" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/top_generos_apariciones.png" alt="Top Géneros por Apariciones" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 7: Top 20 géneros (según la API de Spotify) por apariciones. La granularidad de los géneros resalta la necesidad de una normalización para análisis de "familias de géneros".</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/evolucion_streams_mensuales.png" alt="Evolución de Streams Totales Mensuales" style="max-width:90%; border:1px solid #ccc;">
+    <img src="eda_plots/evolucion_streams_mensuales.png" alt="Evolución de Streams Totales Mensuales" style="max-width:90%; border:1px solid #ccc;">
     <p><em>Figura 8: Evolución de los streams totales globales agregados mensualmente. Se observa una tendencia general al alza en la actividad de streaming a lo largo de los años. La caída al final corresponde a la completitud de los datos del último año.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/canciones_unicas_mensuales.png" alt="Número de Canciones Únicas Mensuales" style="max-width:90%; border:1px solid #ccc;">
+    <img src="eda_plots/canciones_unicas_mensuales.png" alt="Número de Canciones Únicas Mensuales" style="max-width:90%; border:1px solid #ccc;">
     <p><em>Figura 9: Número de canciones únicas que aparecen en los charts cada mes. Esta métrica también muestra un crecimiento, sugiriendo una mayor rotación o diversidad musical con el tiempo.</em></p>
 </div>
 
 <div style="text-align:center; margin-bottom:25px;">
-    <img src="Music_Wars/eda_plots/top_canciones_streams_acumulados.png" alt="Top Canciones por Streams Acumulados" style="max-width:80%; border:1px solid #ccc;">
+    <img src="eda_plots/top_canciones_streams_acumulados.png" alt="Top Canciones por Streams Acumulados" style="max-width:80%; border:1px solid #ccc;">
     <p><em>Figura 10: Top 20 canciones por streams totales acumulados a lo largo de todo el período. Este gráfico justifica el uso de streams acumulativos para el bar chart race, ya que resalta la popularidad sostenida.</em></p>
 </div>
 
