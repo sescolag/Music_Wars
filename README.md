@@ -1,6 +1,3 @@
----
-dailymotionId: x9lm6zo
----
 <h1>Music_Wars</h1>
 <p>
 <h2>Por: Saul Escola García - Asignatura: Visualización de Datos</h2>
@@ -115,16 +112,13 @@ dailymotionId: x9lm6zo
     La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022. El video está alojado en Dailymotion:
 </p>
 
-{% include dailymotionPlayer.html id=page.dailymotionId %}
-
-
-
-<!-- Opción 2: Intento de incrustar con iframe de Dailymotion (verifica si GitHub Pages lo permite bien) -->
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; ">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        src="https://dai.ly/k1xAna0j3FgLntDhJlO"
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-    </iframe>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=k1xAna0j3FgLntDhJlO"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
 </div>
 
 <h3>Justificación de la Elección y Codificaciones Visuales</h3>
