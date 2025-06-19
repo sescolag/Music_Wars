@@ -112,7 +112,7 @@
     La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022. El video está alojado en Dailymotion:
 </p>
 
-<iframe src="https://geo.dailymotion.com/player.html?video=k1xAna0j3FgLntDhJlO"</iframe>
+https://geo.dailymotion.com/player.html?video=k1xAna0j3FgLntDhJlO
 
 
 <h3>Justificación de la Elección y Codificaciones Visuales</h3>
