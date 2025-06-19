@@ -135,20 +135,20 @@
     <dt><strong>Longitud de Barra (Canal de Longitud):</strong></dt>
     <dd>Representa la cantidad total de streams acumulados por cada canción hasta el mes mostrado. Este es un canal visual muy efectivo y preciso para datos cuantitativos, permitiendo comparaciones directas de magnitud.</dd>
 
-    <dt><strong>Posición Vertical de la Barra (Canal de Posición):</strong></dt>
-    <dd>Indica el ranking de la canción en ese mes específico, ordenado de mayor a menor cantidad de streams acumulados. La posición es un canal muy potente para comunicar orden y jerarquía.</dd>
+<dt><strong>Posición Vertical de la Barra (Canal de Posición):</strong></dt>
+<dd>Indica el ranking de la canción en ese mes específico, ordenado de mayor a menor cantidad de streams acumulados. La posición es un canal muy potente para comunicar orden y jerarquía.</dd>
 
-    <dt><strong>Etiquetas de Categoría (Nombres de Canción y Artista):</strong></dt>
-    <dd>Se muestran junto a cada barra (en el eje Y). Utilizan el canal de identidad para nombrar cada barra, permitiendo al espectador identificar qué canción representa cada barra. La fuente y tamaño se han elegido para maximizar la legibilidad.</dd>
+<dt><strong>Etiquetas de Categoría (Nombres de Canción y Artista):</strong></dt>
+<dd>Se muestran junto a cada barra (en el eje Y). Utilizan el canal de identidad para nombrar cada barra, permitiendo al espectador identificar qué canción representa cada barra. La fuente y tamaño se han elegido para maximizar la legibilidad.</dd>
 
-    <dt><strong>Etiquetas de Valor (Streams Acumulados en Millones):</strong></dt>
-    <dd>Aparecen al final de cada barra, mostrando el valor numérico exacto de los streams acumulados (en millones). Esto añade precisión cuantitativa a la longitud de la barra.</dd>
+<dt><strong>Etiquetas de Valor (Streams Acumulados en Millones):</strong></dt>
+<dd>Aparecen al final de cada barra, mostrando el valor numérico exacto de los streams acumulados (en millones). Esto añade precisión cuantitativa a la longitud de la barra.</dd>
 
-    <dt><strong>Color de Barra (Canal de Color - Tono):</strong></dt>
-    <dd>Se utiliza un esquema de colores categórico (ej. 'Paired' o 'tab20') para asignar un color distinto a cada una de las Top 15 canciones. Esto ayuda a distinguir y seguir canciones individuales a medida que cambian de posición en la animación, mejorando la trazabilidad.</dd>
-    
-    <dt><strong>Animación (Progresión Temporal):</strong></dt>
-    <dd>El paso de un frame a otro representa el cambio de un mes al siguiente. La interpolación entre frames suaviza las transiciones, haciendo que la "carrera" sea más fluida y fácil de seguir. La etiqueta de período (ej. "Enero - 2015") indica claramente el momento temporal que se está visualizando.</dd>
+<dt><strong>Color de Barra (Canal de Color - Tono):</strong></dt>
+<dd>Se utiliza un esquema de colores categórico (ej. 'Paired' o 'tab20') para asignar un color distinto a cada una de las Top 15 canciones. Esto ayuda a distinguir y seguir canciones individuales a medida que cambian de posición en la animación, mejorando la trazabilidad.</dd>
+
+<dt><strong>Animación (Progresión Temporal):</strong></dt>
+<dd>El paso de un frame a otro representa el cambio de un mes al siguiente. La interpolación entre frames suaviza las transiciones, haciendo que la "carrera" sea más fluida y fácil de seguir. La etiqueta de período (ej. "Enero - 2015") indica claramente el momento temporal que se está visualizando.</dd>
 </dl>
 <p>
     La combinación de estas codificaciones busca ofrecer una representación expresiva y efectiva de la evolución de la popularidad musical, permitiendo al usuario identificar patrones, canciones dominantes y la dinámica general del mercado de streaming de Spotify.
