@@ -185,17 +185,7 @@
 <p>
     Se ha puesto especial atención en asegurar una composición de contenidos clara, coherente y un diseño visual que facilite la comprensión y la exploración de los datos presentados. Esto aplica tanto a esta página web del proyecto como a la visualización principal del Bar Chart Race.
 </p>
-
-<h3>5.1 Diseño de la Página Web del Proyecto</h3>
-<ul>
-    <li><strong>Estructura Lógica:</strong> La información se presenta en secciones numeradas que siguen el flujo natural de un proyecto de visualización: introducción, descripción del dataset, análisis exploratorio, presentación de la visualización principal, elementos interactivos, y conclusiones.</li>
-    <li><strong>Jerarquía Visual:</strong> Se utilizan encabezados de diferentes niveles (H1, H2, H3) para estructurar el contenido y guiar la lectura.</li>
-    <li><strong>Textos Descriptivos:</strong> Cada sección y cada gráfico (tanto del EDA como la visualización principal) van acompañados de textos explicativos que contextualizan la información, justifican las elecciones y ayudan a interpretar los hallazgos.</li>
-    <li><strong>Consistencia:</strong> Se ha intentado mantener un estilo de fuente y formato consistente en toda la página para una experiencia de usuario unificada.</li>
-    <li><strong>Enlaces y Referencias:</strong> Se proporcionan enlaces al dataset original y al repositorio del proyecto para mayor transparencia y reproducibilidad.</li>
-</ul>
-
-<h3>5.2 Diseño Visual del Bar Chart Race</h3>
+<h3>Diseño Visual del Bar Chart Race</h3>
 <p>
     Para la animación del Bar Chart Race, se tomaron las siguientes decisiones de diseño con el objetivo de maximizar la claridad y el impacto visual:
 </p>
