@@ -186,7 +186,7 @@
 <ul>
     <li>La elección de un formato de video MP4 asegura una amplia compatibilidad y un buen rendimiento de reproducción en la mayoría de los dispositivos y navegadores.</li>
     <li>La velocidad de la animación (`steps_per_period` en la generación) se ha ajustado para intentar ofrecer un equilibrio entre fluidez y la capacidad de seguir los cambios sin que sea abrumadoramente rápido o excesivamente lento.</li>
-    <li>Si esta visualización se implementara directamente en una plataforma web interactiva (como Flourish, LivingCharts, o con D3.js), se podrían añadir interacciones más ricas, como tooltips con información detallada al pasar el ratón sobre una barra, filtros dinámicos por artista o género, o la posibilidad de seleccionar una canción para resaltar su trayectoria. Para el alcance de este proyecto, la animación en video con controles de reproducción proporciona un nivel de exploración efectivo.</li>
+    <li>Si esta visualización se implementara directamente en una plataforma web interactiva, se podrían añadir interacciones más ricas, como tooltips con información detallada al pasar el ratón sobre una barra, filtros dinámicos por artista o género, o la posibilidad de seleccionar una canción para resaltar su trayectoria. Para el alcance de este proyecto, la animación en video con controles de reproducción proporciona un nivel de exploración efectivo.</li>
 </ul>
 
 
