@@ -1,4 +1,4 @@
-<h1><li><a href="https://www.dailymotion.com/video/TU_ID_DE_VIDEO_DAILYMOTION" target="_blank" class="button-link">Music_Wars</a></li></h1>h1>
+<h1><a href="https://www.dailymotion.com/video/TU_ID_DE_VIDEO_DAILYMOTION" target="_blank" class="button-link">Music_Wars</a></h1>h1>
 <p>
 <h2>Por: Saul Escola García - Asignatura: Visualización de Datos</h2>
 
