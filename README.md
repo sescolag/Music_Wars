@@ -1,5 +1,5 @@
-# Music_Wars
-*Por: Saul Escola García - Asignatura: Visualización de Datos
+<h1>Music_Wars</h1>
+<h1>Por: Saul Escola García - Asignatura: Visualización de Datos</h1>h1>
 
 <h2>1. Introducción: Preguntas y Objetivos</h2>
 <p>
