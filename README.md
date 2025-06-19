@@ -189,9 +189,40 @@
     <li>Si esta visualización se implementara directamente en una plataforma web interactiva, se podrían añadir interacciones más ricas, como tooltips con información detallada al pasar el ratón sobre una barra, filtros dinámicos por artista o género, o la posibilidad de seleccionar una canción para resaltar su trayectoria. Para el alcance de este proyecto, la animación en video con controles de reproducción proporciona un nivel de exploración efectivo.</li>
 </ul>
 
+<h2>5. Composición de Contenidos y Diseño Visual</h2>
+<p>
+    Se ha puesto especial atención en asegurar una composición de contenidos clara, coherente y un diseño visual que facilite la comprensión y la exploración de los datos presentados. Esto aplica tanto a esta página web del proyecto como a la visualización principal del Bar Chart Race.
+</p>
 
-## 5. Composición y Diseño Visual
-Se ha buscado una composición limpia...
+<h3>5.1 Diseño de la Página Web del Proyecto</h3>
+<ul>
+    <li><strong>Estructura Lógica:</strong> La información se presenta en secciones numeradas que siguen el flujo natural de un proyecto de visualización: introducción, descripción del dataset, análisis exploratorio, presentación de la visualización principal, elementos interactivos, y conclusiones.</li>
+    <li><strong>Jerarquía Visual:</strong> Se utilizan encabezados de diferentes niveles (H1, H2, H3) para estructurar el contenido y guiar la lectura.</li>
+    <li><strong>Textos Descriptivos:</strong> Cada sección y cada gráfico (tanto del EDA como la visualización principal) van acompañados de textos explicativos que contextualizan la información, justifican las elecciones y ayudan a interpretar los hallazgos.</li>
+    <li><strong>Consistencia:</strong> Se ha intentado mantener un estilo de fuente y formato consistente en toda la página para una experiencia de usuario unificada.</li>
+    <li><strong>Enlaces y Referencias:</strong> Se proporcionan enlaces al dataset original y al repositorio del proyecto para mayor transparencia y reproducibilidad.</li>
+</ul>
+
+<h3>5.2 Diseño Visual del Bar Chart Race</h3>
+<p>
+    Para la animación del Bar Chart Race, se tomaron las siguientes decisiones de diseño con el objetivo de maximizar la claridad y el impacto visual:
+</p>
+<ul>
+    <li><strong>Título Principal:</strong> "Top Spotify Songs - Streams Acumulados Mensuales (Global)" es claro y conciso, indicando inmediatamente el contenido de la visualización. El tamaño de la fuente es prominente.</li>
+    <li><strong>Etiqueta de Período (Mes y Año):</strong> Se muestra de forma destacada (ej. "Enero - 2015") en una posición consistente (abajo a la derecha), permitiendo al espectador saber en qué punto del tiempo se encuentra la animación. Su tamaño y peso de fuente aseguran su legibilidad.</li>
+    <li><strong>Resumen del Período:</strong> Debajo de la etiqueta de período, se muestra el "Total de Streams Acumulados (Top 15)", proporcionando un contexto cuantitativo adicional sobre la magnitud de los datos en ese frame.</li>
+    <li><strong>Etiquetas de Barra (Nombres de Canción):</strong> Los nombres de las canciones y artistas se muestran claramente en el eje Y, junto a sus respectivas barras. El tamaño de la fuente se ajustó para permitir la lectura de múltiples nombres sin excesivo solapamiento.</li>
+    <li><strong>Etiquetas de Valor (Streams):</strong> Los valores numéricos de los streams acumulados (en millones) se muestran al final de cada barra, proporcionando la magnitud exacta y facilitando la comparación.</li>
+    <li><strong>Esquema de Colores (`cmap`):</strong> Se eligió un esquema de colores categórico (ej. 'Paired' o 'tab20') que asigna colores distintos a las barras, ayudando a diferenciar las canciones y a seguirlas visualmente a medida que cambian de ranking. Se optó por colores que funcionen bien sobre un fondo claro.</li>
+    <li><strong>Fondo y Rejilla:</strong> Se utilizó un estilo con fondo blanco y una rejilla sutil (`seaborn-v0_8-whitegrid`) para no distraer de los datos principales (las barras) y facilitar la lectura de los valores en el eje X.</li>
+    <li><strong>Velocidad de Animación y Transiciones:</strong> El parámetro `steps_per_period` se ajustó para buscar un equilibrio entre una animación fluida y una velocidad que permita al espectador procesar los cambios sin sentirse abrumado. La interpolación ayuda a suavizar las transiciones.</li>
+    <li><strong>Ausencia de Saturación:</strong> Se evitó el uso excesivo de colores o elementos gráficos que pudieran distraer o dificultar la interpretación de los datos. El enfoque es la claridad y la efectividad en la comunicación de las tendencias.</li>
+</ul>
+<p>
+    El objetivo general del diseño ha sido crear una visualización que no solo sea informativa, sino también atractiva y fácil de seguir, permitiendo que la historia de los datos emerja de forma natural.
+</p>
+
+
 
 ## Material Complementario
 - [Repositorio de GitHub con Código y Datos](https://github.com/TU_USUARIO_GITHUB/NOMBRE_DEL_REPOSITORIO)
