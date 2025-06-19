@@ -1,10 +1,30 @@
 # Music_Wars
 *Por: Saul Escola García - Asignatura: Visualización de Datos
 
-## 1. Introducción: Preguntas y Objetivos
-Este proyecto explora la evolución de la popularidad de las canciones en Spotify...
-- ¿Cómo ha cambiado...?
-- ¿Qué canciones...?
+<h2>1. Introducción: Preguntas y Objetivos</h2>
+<p>
+    La música es una fuerza omnipresente y en constante evolución, y las plataformas de streaming como Spotify se han convertido en el principal barómetro de las tendencias musicales globales. Este proyecto se sumerge en el vasto océano de datos de los charts de Spotify para visualizar y comprender la dinámica de la popularidad de las canciones a lo largo de casi una década.
+</p>
+<p>
+    Partiendo del dataset "Spotify Chart Data" (que abarca desde 2013 hasta finales de 2022), que incluye información sobre millones de entradas en los charts de diversos países, surgieron las siguientes preguntas clave:
+</p>
+<ul>
+    <li>¿Cómo ha evolucionado el ranking de las canciones más escuchadas a nivel global mes a mes?</li>
+    <li>¿Qué canciones han logrado un impacto duradero, manteniéndose en la cima de la popularidad durante períodos extensos?</li>
+    <li>¿Existen "fenómenos musicales" o "one-hit wonders" claramente identificables por su rápido ascenso y descenso en los charts?</li>
+    <li>¿Se pueden observar patrones o cambios en la velocidad con la que nuevas canciones alcanzan el estrellato y otras son desplazadas?</li>
+</ul>
+<p>
+    Los <strong>objetivos principales</strong> de este proyecto de visualización son:
+</p>
+<ol>
+    <li><strong>Presentar de forma dinámica y atractiva</strong> la evolución de la popularidad de las canciones (Top 200 global) utilizando streams acumulativos mensuales como métrica principal.</li>
+    <li><strong>Facilitar la identificación de tendencias</strong>, canciones dominantes y la naturaleza cambiante de los gustos musicales a lo largo del tiempo.</li>
+    <li><strong>Demostrar la aplicación de técnicas de preprocesamiento de datos y visualización de información</strong> para extraer insights de un conjunto de datos complejo y de gran volumen.</li>
+</ol>
+<p>
+    A través de un "Bar Chart Race", se busca ofrecer una narrativa visual que no solo muestre datos, sino que también cuente la historia de la música que ha marcado la última década en Spotify.
+</p>
 
 ## 2. El Dataset: Spotify Chart Data
 El conjunto de datos original proviene de Kaggle ([Spotify Chart Data by Jan Freyberg](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data))...
