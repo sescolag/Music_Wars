@@ -49,7 +49,7 @@
                     </p>
 
 <div style="text-align:center; margin-bottom:25px;">
-                        <img src="Music_Wars/eda_plots/distribucion_streams.png" alt="Distribución de Streams" style="max-width:80%; border:1px solid #ccc;">
+                        <img src="eda_plots/distribucion_streams.png" alt="Distribución de Streams" style="max-width:80%; border:1px solid #ccc;">
                         <p><em>Figura 1: Distribución de streams por entrada en chart. La escala logarítmica en el eje X evidencia la alta concentración de canciones con streams moderados y la larga cola de "mega-hits" con reproducciones masivas.</em></p>
 </div>
 <div style="text-align:center; margin-bottom:25px;">
