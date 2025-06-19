@@ -1,4 +1,4 @@
-<h1><a href="https://www.dailymotion.com/video/TU_ID_DE_VIDEO_DAILYMOTION" target="_blank" class="button-link">Music_Wars</a></h1>h1>
+<h1><a href="https://www.dailymotion.com/video/k1xAna0j3FgLntDhJlO" target="_blank" class="button-link">Music_Wars</a></h1>
 <p>
 <h2>Por: Saul Escola García - Asignatura: Visualización de Datos</h2>
 
@@ -208,6 +208,6 @@
 <h2>Material Complementario</h2>
 <p>Para una revisión más detallada del proceso y los datos:</p>
 <ul>
-    <li><a href="https://www.dailymotion.com/video/TU_ID_DE_VIDEO_DAILYMOTION" target="_blank" class="button-link">Video Bar Chart Race (Dailymotion)</a></li>
+    <li><a href="https://www.dailymotion.com/video/k1xAna0j3FgLntDhJlO" target="_blank" class="button-link">Video Bar Chart Race (Dailymotion)</a></li>
     <li><a href="Music_Wars_5_2.ipynb" target="_blank" class="button-link">Notebook Jupyter (.ipynb) con el Análisis</a></li>
 </ul>
