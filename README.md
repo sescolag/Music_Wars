@@ -103,15 +103,13 @@
 </p>
 </div>
 
-
 <h2>3. Visualización Principal: Bar Chart Race de Popularidad Musical</h2>
 <p>
     Para responder a las preguntas sobre la evolución de la popularidad de las canciones y la dinámica de los charts, la visualización principal escogida es un <strong>Bar Chart Race</strong>. Esta técnica es particularmente efectiva para mostrar cómo los rankings y las magnitudes cambian a lo largo de una dimensión temporal (en este caso, mes a mes).
 </p>
 <p>
-    La siguiente animación visualiza las <strong>Top 10 canciones</strong> (de un total de 1000 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde 2013 hasta 2023. El video está alojado en Dailymotion:
+    La siguiente animación visualiza las <strong>Top 10 canciones</strong> (de un total de 1000 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde 2013 hasta 2023. El video está alojado en Dailymotion, puede accesderse al final del documento en Material Complementario.
 </p>
-<h3> [LINK a la visualizacion]https://geo.dailymotion.com/player.html?video=k1xAna0j3FgLntDhJlO</h3>
 
 <h3>Justificación de la Elección y Codificaciones Visuales</h3>
 <p>
@@ -215,14 +213,6 @@
 <p>
     El objetivo general del diseño ha sido crear una visualización que no solo sea informativa, sino también atractiva y fácil de seguir, permitiendo que la historia de los datos emerja de forma natural.
 </p>
-
-
-
-<h3>Justificación de la Elección y Codificaciones Visuales</h3>
-<!-- ... (el resto de la justificación se mantiene igual) ... -->
-</div>
-
-<!-- ... -->
 
 <div class="section">
 <h2>Material Complementario</h2>
