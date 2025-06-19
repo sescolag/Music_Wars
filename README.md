@@ -1,6 +1,7 @@
 <h1>Music_Wars</h1>
+<p>
 <h2>Por: Saul Escola García - Asignatura: Visualización de Datos</h2>
-
+<p>
 <h2>1. Introducción: Preguntas y Objetivos</h2>
 <p>
     La música es una fuerza omnipresente y en constante evolución, y las plataformas de streaming como Spotify se han convertido en el principal barómetro de las tendencias musicales globales. Este proyecto se sumerge en el vasto océano de datos de los charts de Spotify para visualizar y comprender la dinámica de la popularidad de las canciones a lo largo de casi una década.
