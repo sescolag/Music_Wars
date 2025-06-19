@@ -111,7 +111,7 @@
 <p>
     La siguiente animación visualiza las <strong>Top 15 canciones</strong> (de un total de 200 canciones más populares globalmente seleccionadas) basadas en sus <strong>streams acumulativos mensuales globales</strong>, desde Abril de 2013 hasta Diciembre de 2022. El video está alojado en Dailymotion:
 </p>
-
+[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
 <!-- Opción 2: Intento de incrustar con iframe de Dailymotion (verifica si GitHub Pages lo permite bien) -->
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; ">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
